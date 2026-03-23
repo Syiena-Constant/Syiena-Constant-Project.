@@ -1,7 +1,6 @@
 # Syiena-Constant-Project.
 
-The Official Implementation of the Syiena Constant ($C_\sigma$): 
-Redefining the Basel Problem:
+Official implementation of the Syiena Constant. Redefining the Basel Problem for modern algorithmic convergence.
 
 $$\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$$
 
