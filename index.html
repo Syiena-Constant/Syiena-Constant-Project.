@@ -1,44 +1,120 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="google-site-verification" content="njC38D5pockMOyS7Pp9xc4DtqsRNV2SsJ6UL_DVBjgE" />
-    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Official implementation of Syiena Constant (Cσ). Developed by Syiena - The Digital Architect.">
     <title>Syiena Constant | Official Page</title>
     <style>
-        body { background: #0d1117; color: #c9d1d9; font-family: 'Segoe UI', sans-serif; margin: 0; text-align: center; display: flex; flex-direction: column; justify-content: center; min-height: 100vh; }
+        /* BASE STYLE */
+        body { 
+            background: #0d1117; 
+            color: #c9d1d9; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            text-align: center; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            min-height: 100vh; 
+        }
         .hero { padding: 50px 20px; }
-        h1 { color: #58a6ff; font-size: 3.5em; letter-spacing: -2px; margin-bottom: 0; }
+        
+        /* TYPOGRAPHY */
+        h1 { 
+            color: #58a6ff; 
+            font-size: 3.5em; 
+            letter-spacing: -2px; 
+            margin-bottom: 0; 
+            text-transform: uppercase;
+        }
         p.subtitle { font-size: 1.2em; color: #8b949e; margin-top: 10px; }
-        .math-box { background: #161b22; border: 1px solid #30363d; padding: 30px; border-radius: 12px; display: inline-block; margin: 30px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        
+        /* MATH BOX */
+        .math-box { 
+            background: #161b22; 
+            border: 1px solid #30363d; 
+            padding: 30px; 
+            border-radius: 12px; 
+            display: inline-block; 
+            margin: 30px 0; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5); 
+        }
+
+        /* BUTTONS */
         .btn-container { margin-top: 40px; }
-        .btn { text-decoration: none; padding: 15px 30px; border-radius: 6px; font-weight: bold; transition: 0.3s; margin: 10px; display: inline-block; }
-        .btn-primary { background: #238636; color: white; }
-        .btn-primary:hover { background: #2ea043; }
-        .btn-outline { border: 1px solid #30363d; color: #58a6ff; }
-        .btn-outline:hover { background: #30363d; }
+        .btn { 
+            text-decoration: none; 
+            padding: 15px 30px; 
+            border-radius: 6px; 
+            font-weight: bold; 
+            transition: 0.3s; 
+            margin: 10px; 
+            display: inline-block; 
+            font-size: 0.95em;
+        }
+        
+        /* REPLIT BUTTON (BLUE) */
+        .btn-replit { 
+            background: #007bff; 
+            color: white; 
+            border: 1px solid #007bff;
+        }
+        .btn-replit:hover { 
+            background: #0056b3; 
+            transform: translateY(-3px);
+        }
+
+        /* CERTIFICATE BUTTON (GREEN) */
+        .btn-primary { 
+            background: #238636; 
+            color: white; 
+        }
+        .btn-primary:hover { 
+            background: #2ea043; 
+            transform: translateY(-3px);
+        }
+
+        /* GITHUB BUTTON (OUTLINE) */
+        .btn-outline { 
+            border: 1px solid #30363d; 
+            color: #58a6ff; 
+        }
+        .btn-outline:hover { 
+            background: #30363d; 
+            transform: translateY(-3px);
+        }
+
         footer { margin-top: 50px; font-size: 0.8em; color: #484f58; }
     </style>
 </head>
 <body>
     <div class="hero">
         <h1>THE SYIENA CONSTANT</h1>
-        <p class="subtitle">Redefining the Basel Problem through Modern Algorithmic Symmetry.</p>
+        <p class="subtitle">Redefining Mathematical Symmetry through Algorithmic Logic.</p>
         
         <div class="math-box">
-            <code style="font-size: 1.5em; color: #f0f6fc;">Σ (1/n²) = π²/6 ≈ 1.644934</code>
+            <code style="font-size: 1.5em; color: #f0f6fc;">Cσ = (sin(60°) × π) / φ² ≈ 1.039214</code>
         </div>
 
         <div class="btn-container">
-            <a href="certificate.html" class="btn btn-primary">Lihat Sertifikat Resmi</a>
-            <a href="https://github.com/Syiena-Constant/Syiena-Constant-Project" class="btn btn-outline">Lihat Kode di GitHub</a>
+            <a href="https://replit.com/join/xyzhouowdb-syienaconstant" target="_blank" class="btn btn-replit">
+                🚀 Try Live Calculator
+            </a>
+            
+            <a href="certificate.html" class="btn btn-primary">
+                Official Certificate
+            </a>
+            
+            <a href="https://github.com/Syiena-Constant/Syiena-Constant-Project" target="_blank" class="btn btn-outline">
+                View Source Code
+            </a>
         </div>
     </div>
 
     <footer>
-        © 2026 Syiena Constant Project • Developed by Syiena
+        © 2026 Syiena Constant Project • Developed by Syiena - The Digital Architect
     </footer>
 </body>
 </html>
